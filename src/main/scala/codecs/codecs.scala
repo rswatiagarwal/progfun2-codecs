@@ -6,6 +6,8 @@ package codecs
   * For example, the `42` integer JSON value can be modeled as `Json.Num(42)`
   */
 sealed trait Json {
+
+
   /**
    * Try to decode this JSON value into a value of type `A` by using
    * the implicit decoder.
